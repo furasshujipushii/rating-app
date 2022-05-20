@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-color: #121417;
+  color: white;
+  position: relative;
+  min-height: 100vh;
+}
+
+a {
+  color: #7c8798;
+}
+
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #252d37;
+  width: 300px;
+  padding: 30px;
+  height: 350px;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 5px rgba(20, 17, 46, 0.289);
+          box-shadow: 0 5px rgba(20, 17, 46, 0.289);
+}
+
+.app #send {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 35px;
+  padding: 8px 100px;
+  border-radius: 15px;
+  border: none;
+  background-color: #fb7413;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.app #send:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.app h1 {
+  padding: 15px 0;
+  font-weight: 400;
+}
+
+.app p {
+  font-size: 14px;
+  color: #959eac;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+
+.app #rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.app #rates li {
+  background-color: #121417;
+  opacity: 0.3;
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.app #rates li:hover {
+  background-color: #fb7413;
+  opacity: 1;
+}
+
+.app #rates li.active {
+  background-color: red;
+}
+
+.app .thanks {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.app .thanks #pic {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.app .thanks h1 {
+  font-weight: 700;
+}
+
+.app .thanks button {
+  margin-top: 15px;
+  background-color: #3b4754;
+  color: #fb7413;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+
+.app .thanks p {
+  font-size: 14px;
+  width: 120%;
+  -webkit-transform: translateX(-10%);
+          transform: translateX(-10%);
+}
+/*# sourceMappingURL=index.css.map */
